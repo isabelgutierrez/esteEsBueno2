@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgFoto2"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/txtNombre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:hint="Nombre"
+            android:textColor="@color/lightWhite"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:inputType="textMultiLine"
+            android:textColor="@color/lightWhite"
+            android:scrollbars="vertical"
+            android:id="@+id/txtIngredientes2"
+            android:focusable="false"
+            android:layout_width="298dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="Ingredientes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombre2"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:id="@+id/txtProceso2"
+            android:layout_width="289dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:focusable="false"
+            android:textColor="@color/lightWhite"
+            android:ems="10"
+            android:hint="Proceso"
+            android:isScrollContainer="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtIngredientes2"
+            app:layout_constraintVertical_bias="0.024" />
+
+            />
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
